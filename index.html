@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ketchup Room - Restaurant Burgers</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 100%;
+            margin: auto;
+            max-height: 700px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+
+
+    <script src="js/menu.js"></script>
+
+</head>
+
+
+
+
+<body>
+
+                                    <!--mobile menu start-->
+
+<div class="menu-mob visible-md visible-sm visible-xs">
+    <img src="img/arrow-down.png" alt="" class="open">
+    <img src="img/arrow-up.png" alt="" class="close">
+    <ul class="ulleft">
+        <li><a href="#">Головна</a></li>
+        <li><a href="#">Меню</a></li>
+        <li><a href="#">Галерея</a></li>
+        <li><a href="#">Бронювання</a></li>
+        <li><a href="#">Що ми таке?</a></li>
+        </ul>
+    <img src="img/logo.png" alt="" class="posf">
+    <ul class="ulright">
+        <li class="pad-left"><a href="#">Доставка</a></li>
+        <li><a href="#">Новини та блог</a></li>
+        <li><a href="#">Контакти</a></li>
+    </ul>
+</div>
+                    <!--menu mobile end-->
+
+
+	<div class="container-fluid">
+		<div class="row">
+
+            <!--Menu start-->
+
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-md hidden-sm hidden-xs">
+                <div class="menu-line" id="menu">
+                    <div class="container">
+                        <ul class="menul">
+                            <li><a href="#">Головна</a></li>
+                            <li><a href="#">Меню</a></li>
+                            <li><a href="#">Галерея</a></li>
+                            <li><a href="#">Бронювання</a></li>
+                            <li><a href="#">Що ми таке?</a></li>
+                        </ul>
+                        <a href="#" alt="">
+                            <img src="img/logo.png" alt="logo" class="logo">
+                        </a>
+
+                        <ul class="menur">
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">Новини та блог</a></li>
+                            <li><a href="#">Контакти</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                                        <!--Menu End-->
+
+
+                    <!--slider block start-->
+
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="img/header_bg.jpg" alt="Chania" width="460" height="345">
+                        </div>
+                        <div class="item">
+                            <img src="img/ketchup-room2.jpg" alt="Chania" width="460" height="345">
+                        </div>
+                        <div class="item">
+                            <img src="img/ketchup-room3.jpg" alt="Flower" width="460" height="345">
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+
+                    </a>
+            </div>
+
+                <!--slider end-->
+
+                <!--info on slide start-->
+                <div class="onslide">
+
+                <a href="">
+                    <img src="img/logo-big.png" alt="logo-big" class="img-responsive visible-xs visible-sm visible-md visible-lg logo-big">
+                </a>
+                <h1>The Best Burger Cafe is Here</h1>
+                <h2>
+                    "Бургер - це коли все зроблено смачно"
+                </h2>
+                <span> &copy; Ketchup Room.</span>
+                <br>
+                <a class="btn hidden-xs">Дізнатись більше про кафе?</a>
+                <ul class="icons hidden-xs">
+                    <li><a href="#">
+                        <i class="fa fa-cutlery hidden-xs" aria-hidden="true"></i>
+                    </a>
+                        <p>Меню</p></li>
+                    <li><a href="#">
+                        <i class="fa fa-star hidden-xs" aria-hidden="true"></i>
+                    </a>
+                        <p>Хіт Меню</p>
+                        </li>
+                    <li><a href="#">
+                        <i class="fa fa-picture-o hidden-xs" aria-hidden="true"></i>
+                    </a>
+                        <p>Галерея</p>
+                        </li>
+                    <li><a href="#">
+                        <i class="fa fa-calendar hidden-xs" aria-hidden="true"></i>
+                    </a>
+                        <p>Бронювання</p>
+                        </li>
+                    <li><a href="#">
+                        <i class="fa fa-map-marker hidden-xs" aria-hidden="true"></i>
+                    </a>
+                        <p>Карта</p>
+                        </li>
+                </ul>
+            </div>
+                <div class="container visible-xs onslide-xs">
+                    <a class="btn">Дізнатись більше про кафе?</a>
+                    <ul class="icons">
+                        <li><a href="#">
+                            <i class="fa fa-cutlery" aria-hidden="true"></i>
+                        </a>
+                            <p>Меню</p></li>
+                        <li><a href="#">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </a>
+                            <p>Хіт Меню</p>
+                            </li>
+                        <li><a href="#">
+                            <i class="fa fa-picture-o" aria-hidden="true"></i>
+                        </a>
+                            <p>Галерея</p>
+                            </li>
+                        <li><a href="#">
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                        </a>
+                            <p>Бронювання</p>
+                            </li>
+                        <li><a href="#">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </a>
+                            <p>Карта</p>
+                            </li>
+                    </ul>
+                </div>
+                <!--info on slide end-->
+            </div>
+        </div>
+        <div class="clear"></div>
+
+        <!--block with quote -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="wrap">
+
+                <div class="content">
+
+                        <h2>· Кафе · Бар &amp; гриль · Гамбургери</h2>
+                        <p>Ласкаво просимо в Ketchup Room</p>
+                        <p>
+                            У кожного, хто приходить в Ketchup Room свої інтереси. Але нам добре разом - весело, комфортно і смачно. Тут кожен гість вільний бути собою. І не потрібно здаватися кимось іншим, щоб насолоджуватися смаком улюбленого бургера. Ketchup Room - це кімната, атмосферу в якій визначаєте ви, як кетчуп визначає смак вашого улюбленого бургера.
+                        </p>
+                        <img src="img/chef_avatar.jpg" alt="avatar">
+                        <p class="name">
+                            Костянтин, Директор Ketchup Room
+                        </p>
+                        <p class="posr">
+                            <img src="img/restaurant_left_bg.jpg" alt="food" class="img-responsive leftside hidden-xs">
+                            <img src="img/restaurant_right_bg.jpg" alt="food" class="img-responsive rightside hidden-xs">
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--block with quote end-->
+
+
+        <div class="clear"></div>
+
+
+        <!--block with parralax 1 start -->
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="parallax">
+                    <div class="container">
+                        <div class="row">
+                            <div class="bg-wrap">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 white">
+                                    <figure class="hidden-xs hidden-sm"><img src="img/banner_special.jpg" alt="Summer Grill" class="img-responsive hidden-xs">
+                                        <figcaption class="hidden-xs">
+                                            <h3>бургер- Italian!</h3>
+                                            <p><span>Усього</span><strong> 79 грн</strong></p>
+                                        </figcaption>
+                                    </figure>
+
+                                    <div class="special-content">
+                                        <h3 class="header">Лови момент!</h3>
+                                        <ul class="special-menu">
+                                            <li>
+                                                <h4>MICHIGAN</h4>
+                                                64.00 ГРН</li>
+                                            <li>
+                                                <h4>Beef BBQ</h4>
+                                                59.00 ГРН</li>
+                                            <li>
+                                                <h4>Cheeseburger</h4>
+                                                59.00 ГРН</li>
+                                            <li>
+                                                <h4>KETCHUP ROOM</h4>
+                                                68.00 ГРН</li>
+                                            <li>
+                                                <h4>KETCHUP ROOM 2</h4>
+                                                72.00 ГРН</li>
+                                            <li>
+                                                <h4>ELVIS</h4>
+                                                55.00 ГРН</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-sm-12 col-xs-12 col-lg-offset-10 col-md-12" >
+                                        <a href="#" class="menubtn"> ВСЕ МЕНЮ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--block with parallax 1 end-->
+
+        <div class="clear"></div>
+
+        <!--block with menu start -->
+
+        <div class="wrap-menu">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="burg-menu-head">
+                    <h3>Меню</h3>
+                    <span>Відкрийте наше меню</span>
+                </div>
+            </div>
+            </div>
+            <div class="burg-menu-cont">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 zi col-sm-4 col-xs-12">
+                            <div class="line1">
+                                <h3>ГАРЯЧІ СТРАВИ</h3>
+                                <ul class="list1">
+                                    <li class="price">
+                                        МОЦАРЕЛА З БЕКОНОМ ТА ГРУШЕЮ
+                                        <p>₴58.00</p>
+                                    </li>
+                                    <li class="price">
+                                        РЕБЕРЦЯ З СОУСОМ БАРБЕКЮ
+                                        <p>₴29.00</p>
+                                    </li>
+                                    <li class="price">
+                                        ФОРЕЛЬ РІЧКОВА
+                                        <p>₴39.00</p>
+                                    </li>
+                                    <li class="price">
+                                        ПАСТА КАРБОНАРА
+                                        <p>₴58.00</p>
+                                    </li>
+                                    <li class="price">
+                                        ПАСТА БОЛОНЬЕЗ
+                                        <p>₴53.00</p>
+                                    </li>
+                                    <li class="price">
+                                        ПАСТА 4 СИРИ
+                                        <p>₴62.00</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 zi col-sm-4 col-xs-12">
+                            <div class="line1">
+                                <h3>BURGERS</h3>
+                                <ul class="list1">
+                                    <li class="price">
+                                        MICHIGAN
+                                        <p class="ingredients">
+                                            котлета з телятини та індички, сир emmental, смажені гриби, цибуля гриль, фірмовий соус
+                                        </p>
+                                        <p class="cent">₴64.00</p>
+                                    </li>
+                                    <li class="price">
+                                        UNCLE SAM
+                                        <p class="ingredients">куряча котлета, томат, свіжий огірок, червона цибуля, салат Айсберг, фірмовий гострий соус</p>
+                                        <p class="cent">₴59.00</p>
+                                    </li>
+                                    <li class="price">
+                                        MINNESOTA
+                                        <p class="ingredients">котлета з телятини зі свининою, соус BBQ, сир моцарела, томат, огірок, червона цибуля, салат айсберг, часниковий соус</p>
+                                        <p class="cent">₴72.00</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 zi col-sm-4 col-xs-12">
+                            <div class="line1">
+                                <h3>САЛАТИ & ЗАКУСКИ</h3>
+                                <ul class="list1">
+                                    <li class="price">
+                                        ASTORIA
+                                        <p class="ingredients">
+                                            сир Фета, каперси, томати, огірки, солодкий перець, червона цибуля, оливкова олія, маслини, орегано
+                                        </p>
+                                        <p class="cent">₴59.00</p>
+                                    </li>
+                                    <li class="price">
+                                        CAESAR CARDINI
+                                        <p class="ingredients">айсберг, куряче філе, бекон, помідор, яйце пашот, соус анчоуси, пармезан, діжонська гірчиця, оливкова олія</p>
+                                        <p class="cent">₴68.00</p>
+                                    </li>
+                                    <li class="price">
+                                        ARVADA
+                                        <p class="ingredients">соломка яблука та селери з соусом GORGONZOLA DOLCE, листя салату з гірчичним соусом</p>
+                                        <p class="cent">₴52.00</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-bot"></div>
+                    <a href="#" class="menubtn colorbtn">Відкрити меню</a>
+                </div>
+            </div>
+            <img src="img/rightp.jpg" alt="" class="leftp hidden-xs">
+            <img src="img/menu_right_bg.jpg" alt="" class="rightp hidden-xs">
+        </div>
+
+        <!--block with menu end-->
+
+        <div class="clear"></div>
+
+        <!--block with comment start-->
+
+        <div class="wrap textslider">
+            <div class="textslider-head">
+                <h3>Відгуки про нас</h3>
+            </div>
+            <div id="text-carousel" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="row">
+                    <div class="col-xs-offset-3 col-xs-6 col-sm-6 col-xs-12">
+                        <div class="carousel-inner">
+                            <div class="item active">
+
+
+                                <div class="carousel-content">
+                                    <div class="quotel">
+                                        <p class="quote">Бургери на будь-який смак та за дуже демократичними цінами. Були в пт ввечері, не шумно, легко знайшли вільний столик. Приємне обслуговування, смачне пиво в крутих бокалах. Загалом, був перший раз і тепер це моє улюблене бургерне місце на районі =)</p>
+                                        <p class="center">Віталий Капустян</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-content">
+                                    <div class="quotel">
+                                        <p class="quote">Сегодня посетил это заведение с семьей, не буду перечислять всех достоинств, сами в них убедитесь. В памяти и на сердце - добрые, теплые и приятные воспоминания, спасибо. </p>
+                                        <p class="center">Віталий Капустян</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="carousel-content">
+                                    <div class="quotel">
+                                        <p class="quote">Зашли семьей по рекомендации друга, очень классное заведение. Кухня ням-ням самые вкусные бургеры таких в Киеве еще не ела. Так же делали доставку на дом, все приехало вкусное и теплое что очень важно было для нас.</p>
+                                        <p class="center">Valova Tetyana</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls --> <a class="left carousel-control-my" href="#text-carousel" data-slide="prev">
+                <span class="glyph-prev"></span>
+            </a>
+                <a class="right carousel-control-my " href="#text-carousel" data-slide="next">
+                    <span class="glyph-next"></span>
+                </a>
+                <a href="" class="btn-reserv btn-border">
+                    Забронювати столик
+                </a>
+            </div>
+        </div>
+
+        <!--block with comment end-->
+
+        <div class="clear"></div>
+
+        <!--block with parallax 2 start-->
+
+        <div class="bg-parallax">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="wrap-blog">
+
+                            <h3>
+                                Подiї	&amp; Блог
+                                <p>Будьте в курсі подій з нами</p>
+                            </h3>
+
+
+
+
+                            <div class="cont1">
+                                <a href="#"><img src="img/1.jpg" alt="" class="fl"></a>
+                                <div class="info-blog left-50">
+                                    <h3>
+                                        <a href="#">Steak with a garlic and parsley risotto</a>
+                                    </h3>
+                                    <time datetime="2014-08-11T00:00:00+00:00">11 серпня, 2014</time>
+                                    <p class="line">
+                                        Morbi leo risus, porta ac consectetur ac…
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="cont1">
+                                    <a href="#">
+                                        <img src="img/2.jpg" alt="" class="fl">
+                                    </a>
+                                <div class="info-blog left-50">
+                                    <h3>
+                                        <a href="#">Steak with a garlic and parsley risotto</a>
+                                    </h3>
+                                    <time datetime="2014-08-11T00:00:00+00:00">11 серпня, 2014</time>
+                                    <p class="line">
+                                        Morbi leo risus, porta ac consectetur ac…
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            </div>
+                            <div class="cont1">
+
+                                <a href="#"><img src="img/3.jpg" alt="" class="fr"></a>
+                                <div class="info-blog left-0">
+                                    <h3>
+                                        <a href="#">Steak with a garlic and parsley risotto</a>
+                                    </h3>
+                                    <time datetime="2014-08-11T00:00:00+00:00">11 серпня, 2014</time>
+                                    <p class="line">
+                                        Morbi leo risus, porta ac consectetur ac…
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="cont1">
+                                <a href="#" class="aaa">
+                                    <img src="img/4.jpg" alt="" class="fr">
+                                </a>
+
+                                <div class="info-blog left-0">
+                                    <h3>
+                                        <a href="#">Steak with a garlic and parsley risotto</a>
+                                    </h3>
+                                    <time datetime="2014-08-11T00:00:00+00:00">11 серпня, 2014</time>
+                                    <p class="line">
+                                        Morbi leo risus, porta ac consectetur ac…
+                                    </p>
+
+                                </div>
+
+
+
+
+
+
+
+                            </div>
+                        <a href="#" class="btn-blog">Find more news</a>
+                        </div>
+                    </div>
+
+                <div class="clear"></div>
+
+                </div>
+            </div>
+
+        <!--block with parallax end -->
+    <div class="clear"></div>
+
+        <!--about us -->
+        <div class="aboutus">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="time-work">
+                            <h3>ЧАС РОБОТИ
+                            </h3>
+                            <p>З понеділка по п'ятниця: 12:00 - 23:00
+                                <br>
+                                Субота та Неділя: 12:00 - 00:00
+                                <br>
+                                Або до останнього клієнта</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="tel">
+                            <i class="fa fa-phone icon-big" aria-hidden="true"></i>
+                            <a href="tel:+380974129016" class="phone">
+                                +38 097 412 9016
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="updates">
+                            <h2>ПІДПИСАТИСЬ НА ОБНОВИ
+                            </h2>
+                            <p>Будь в темі, будь в курсі!</p>
+                            <form id="callback">
+                            <input class="mail" name="email" type="email" placeholder="ВВЕДІТЬ ВАШ E-MAIL..." required="required">
+                            <input type="submit" value="Submit" class="send">
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--end about us -->
+        <div class="clear"></div>
+
+        <!--map constructor -->
+        <div class="map-block">
+            <div class="map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=ePy9zW4nA_wNK0jw8BnxEOwThUIZLUFY&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+            </div>
+
+            <div class="form-wrap">
+                <h3>Розташування
+                </h3>
+                <p>Зв'яжіться з нами прямо зараз!</p>
+
+                <div class="container">
+                    <form action="">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <h4> КОНТАКТНИЙ ФОРМУЛЯЛ</h4>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                                <div class="form-group row">
+                                    <label for="example-email-input" class="col-2 col-form-label"></label>
+                                    <div class="col-10">
+                                        <input class="form-control form-left" type="email" placeholder="E-MAIL" id="example-email-input" name="email">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="example-text-input" class="col-2 col-form-label"></label>
+                                    <div class="col-10">
+                                        <input class="form-control form-left" type="text" name="name" placeholder="NAME" id="example-text-input">
+                                    </div>
+                                </div>
+
+
+
+                                <div class="form-group row">
+                                    <label for="example-text-input" class="col-2 col-form-label"></label>
+                                    <div class="col-10">
+                                        <input class="form-control form-left" type="text" placeholder="MESSAGE TITLE" id="example-text-input" name="title">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-group row">
+                                    <label for="example-text-input" class="col-2 col-form-label"></label>
+                                    <div class="col-10">
+                                        <input class="form-control form-right" type="text" placeholder="YOUR MESSAGE" id="example-text-input" name="message">
+                                    </div>
+                                </div>
+
+                               <p class="but">
+                                   <input type="submit" value="Send" class="btn-comment" id="">
+                               </p>
+
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="form-wrap-right">
+                            <h4>ІНФОРМАЦІЯ</h4>
+                                <p class="adress"> Чому Ketchup Room? Неповторний смак кожної страви надає соус. Граючи легкими відтінками, робить його насиченим або ніжним, пікантним або гострим. Смак визначає соус - як правило, кетчуп.</p>
+                                <h4>АДРЕСА</h4>
+                                <p class="adress">Ketchup Room
+                                    <br>
+                                    Вулиця Якуба Коласа, 15, Київ, Україна 01001</p>
+                                <a href="https://yandex.ru/maps/?um=constructor%3AePy9zW4nA_wNK0jw8BnxEOwThUIZLUFY&source=constructorLink" class="loc-icon">
+                                <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                                    </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+                </div>
+
+            </div>
+        </div>
+
+        <!--end -->
+        <div class="clear"></div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="menu-down">
+                        <ul>
+                            <li class="menu-down-li"><a  href="#">Головна</a></li>
+                            <li class="menu-down-li"><a  href="#">Меню</a></li>
+                            <li class="menu-down-li"><a  href="#">Галерея</a></li>
+                            <li class="menu-down-li"><a  href="#">Бронювання</a></li>
+                            <li class="menu-down-li" ><a href="#">Про нас</a></li>
+                            <li class="menu-down-li" ><a href="#">Контакти</a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright">
+                        <p> 	&#169; 2017</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!--mobile menu-->
+
+    <script type="text/javascript">
+        jQuery(function(f){
+            var element = f('#menu');
+            f(window).scroll(function(){
+                element['fade'+ (f(this).scrollTop() > 200 ? 'In': 'Out')](500);
+
+            });
+        });
+    </script>
+
+<!--mobile menu                                    -->
+
+ <!--email send                                   -->
+
+    <!--<script type="text/javascript">-->
+        <!--$(document).ready(function(){-->
+            <!--$("form").submit(function() { //устанавливаем событие отправки для формы с id=form-->
+                <!--var form_data = $(this).serialize(); //собераем все данные из формы-->
+                <!--$.ajax({-->
+                    <!--type: "POST", //Метод отправки-->
+                    <!--url: "email.php", //путь до php фаила отправителя-->
+                    <!--data: form_data,-->
+                    <!--success: function() {-->
+                        <!--//код в этом блоке выполняется при успешной отправке сообщения-->
+                        <!--alert("Ваше сообщение отпрвлено!");-->
+                    <!--}-->
+            <!--});-->
+        <!--});-->
+    <!--</script>-->
+
+<!--email send-->
+
+
+
+</body>
+</html>
