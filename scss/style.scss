@@ -296,7 +296,6 @@ body {
       position: absolute;
       left: 49.5%;
       top: 333px;
-      //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
       transform: rotate(-45deg);
     }
   }
@@ -311,7 +310,6 @@ body {
     height: 55px;
     background: $white;
     color: $black;
-    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
     border-radius: 0;
     font-size: 16px;
     font-weight: bold;
@@ -415,7 +413,6 @@ body {
 }
 .posr {
   position: relative;
-  //Instead of the line below you could use @include box-sizing($bs)
   box-sizing: border-box;
   .leftside {
     position: absolute;
@@ -479,7 +476,6 @@ body {
       left: 50%;
       margin: -4px 0 0 -4px;
       position: absolute;
-      //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
       transform: rotate(-45deg);
       width: 9px;
     }
@@ -522,7 +518,6 @@ body {
   font-weight: bold;
   font-family: $font_2;
   text-align: center;
-  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
   border-radius: 0;
   padding: 20px 40px;
   float: right;
@@ -677,9 +672,7 @@ body {
   opacity: 1;
   position: absolute;
   top: -5%;
-  //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
   transition: all .3s ease-out;
-  //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
   transform: rotate(-45deg);
   width: 60px;
   &:hover {
@@ -699,9 +692,7 @@ body {
   opacity: 1;
   position: absolute;
   top: -5%;
-  //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
   transition: all .3s ease-out;
-  //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
   transform: rotate(135deg);
   width: 60px;
   &:hover {
@@ -851,7 +842,6 @@ body {
 .cont1 {
   float: left;
   position: relative;
-  //Instead of the line below you could use @include box-sizing($bs)
   box-sizing: border-box;
   width: 50%;
   left: 0;
@@ -887,7 +877,6 @@ body {
       position: absolute;
       left: 49.5%;
       top: 54%;
-      //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
       transform: rotate(-45deg);
     }
   }
@@ -926,9 +915,7 @@ body {
 .fr {
   float: right;
   &:hover {
-    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
     transform: rotate(5deg) scale(1.3);
-    //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
     transition: all .3s ease-out;
   }
 }
@@ -988,7 +975,6 @@ body {
     top: 45px;
     width: 100%;
     z-index: 0;
-    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
     transform: rotate(-92deg) scale(1);
   }
   .phone:hover {
@@ -1064,7 +1050,6 @@ body {
   height: 55px;
   cursor: pointer;
   border: 4px solid $black;
-  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
   border-radius: 50%;
   background: rgba(0,0,0,0);
   &:hover {
@@ -1074,13 +1059,11 @@ body {
   &:before {
     @extend %extend_2;
     webkit-transform: rotate(45deg);
-    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
     transform: rotate(45deg);
   }
   &:after {
     @extend %extend_2;
     webkit-transform: rotate(-45deg);
-    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
     transform: rotate(-45deg);
   }
 }
@@ -1124,7 +1107,6 @@ body {
   }
   .form-left {
     width: 85%;
-    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
     border-radius: 0;
     border: none;
   }
@@ -1139,7 +1121,6 @@ body {
   .form-right {
     width: 85%;
     height: 130px;
-    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
     border-radius: 0;
     border: none;
     margin-top: 20px;
@@ -1158,7 +1139,6 @@ body {
     position: absolute;
     bottom: 20px;
     left: 85%;
-    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
     border-radius: 50%;
     width: 18%;
     text-align: center;
@@ -1254,7 +1234,6 @@ body {
         position: absolute;
         left: 49.5%;
         top: 46%;
-        //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
         transform: rotate(-45deg);
       }
     }
@@ -1317,7 +1296,6 @@ body {
         position: absolute;
         left: 49.5%;
         top: 39.4%;
-        //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
         transform: rotate(-45deg);
       }
     }
@@ -1438,7 +1416,6 @@ body {
       position: absolute;
       bottom: 70px;
       left: 60%;
-      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
       border-radius: 50%;
       width: 30%;
       text-align: center;
@@ -1524,7 +1501,6 @@ body {
       position: absolute;
       bottom: 15px;
       left: 70%;
-      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
       border-radius: 50%;
       width: 15%;
       text-align: center;
@@ -1532,14 +1508,12 @@ body {
     }
     .form-left {
       width: 99%;
-      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
       border-radius: 0;
       border: none;
     }
     .form-right {
       width: 99%;
       height: 172px;
-      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
       border-radius: 0;
       border: none;
     }
@@ -1569,7 +1543,6 @@ body {
       height: 55px;
       background: $white;
       color: $black;
-      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
       border-radius: 0;
       font-size: 16px;
       font-weight: bold;
@@ -1727,7 +1700,6 @@ body {
       position: absolute;
       bottom: -10%;
       left: 40%;
-      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
       border-radius: 50%;
       width: 15%;
       text-align: center;
@@ -1786,7 +1758,6 @@ body {
     margin: 10px auto;
   }
   .tel .icon-big {
-    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
     transform: rotate(-92deg);
     font-size: 190px;
   }
@@ -1920,9 +1891,7 @@ a .logo {
   top: 60px;
 }
 .fl:hover {
-  //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
   transform: rotate(5deg) scale(1.3);
-  //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
   transition: all .3s ease-out;
 }
 .map-block .map {

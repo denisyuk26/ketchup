@@ -639,7 +639,7 @@ body {
   width: 90%;
   margin: 0 auto; }
   .carousel-content .quote:after {
-    content: "“";
+    content: "тАЭ";
     font-size: 60px;
     color: #a3a844;
     display: inline-block;
@@ -652,7 +652,7 @@ body {
   width: 100%;
   position: relative; }
   .carousel-content .quotel:before {
-    content: "“";
+    content: "тАЬ";
     font-size: 60px;
     color: #a3a844;
     font-style: normal;
