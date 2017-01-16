@@ -5,21 +5,7 @@ $(document).ready(function(){
     $("#openmap").on("click", openMap);
     $("#closemap").on("click", closeMap);
 
-    
-    $("form").submit(function() {
-        $.ajax({
-            type: "GET",
-            url: "email.php",
-            data: $("form").serialize()
-        })
-            .done(function() {
-            alert("Спасибо за заявку!");
-            setTimeout(function() {
-                $.fancybox.close();
-            }, 1000);
-        });
-        return false;
-    });
+
 
     function openMap() {
         if (menumob =="close"){
@@ -77,9 +63,5 @@ $(document).ready(function(){
 
     }
 
+
 });
-
-
-
-
-

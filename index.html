@@ -7,12 +7,19 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
 
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+
+
     <style>
         .carousel-inner > .item > img,
         .carousel-inner > .item > a > img {
@@ -26,7 +33,7 @@
             crossorigin="anonymous"></script>
 
 
-    <script src="js/menu.js"></script>
+
 
 </head>
 
@@ -569,8 +576,8 @@
                             </h2>
                             <p>Будь в темі, будь в курсі!</p>
                             <form id="callback">
-                            <input class="mail" name="email" type="email" placeholder="ВВЕДІТЬ ВАШ E-MAIL..." required="required">
-                            <button class="send" type="submit" data-toggle="modal" data-target="#myModal">Підписатись</button>
+                            <input class="mail" name="email" type="email" placeholder="ВВЕДІТЬ ВАШ E-MAIL..." required="required" id="email1">
+                            <button class="send" name="sendmail" type="submit">Підписатись</button>
                             </form>
                         </div>
                     </div>
@@ -578,24 +585,26 @@
             </div>
         </div>
 
+        <!--Modal window start-->
 
-
-
-
-        <div id="myModal" class="modal fade">
-            <div class="modal-dialog">
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <div class="modal-header"><button class="close" type="button" data-dismiss="modal">×</button>
-                        <h4 class="modal-title">Дякуємо!</h4>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     </div>
-                    <div class="modal-body">Ваш запит оброблено!</div>
-                    <div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button></div>
+                    <div class="modal-body" id="send-res">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Добре</button>
+
+                    </div>
                 </div>
             </div>
         </div>
 
-
-
+    <!--Modal's end-->
 
 
         <!--end about us -->
@@ -614,45 +623,45 @@
                 <p>Зв'яжіться з нами прямо зараз!</p>
 
                 <div class="container">
-                    <form action="">
+                    <form action="" id="comments">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" >
                             <h4> КОНТАКТНИЙ ФОРМУЛЯЛ</h4>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 
-                                <div class="form-group row">
-                                    <label for="example-email-input" class="col-2 col-form-label"></label>
+                                <div class="form-group">
+
                                     <div class="col-10">
-                                        <input class="form-control form-left" type="email" placeholder="E-MAIL" id="example-email-input" name="email">
+                                        <input class="form-control form-left" type="email" placeholder="E-MAIL" name="email2" id="commail">
                                     </div>
                                 </div>
 
-                                <div class="form-group row">
+                                <div class="form-group">
 
                                     <div class="col-10">
-                                        <input class="form-control form-left" type="text" name="name" placeholder="NAME" >
+                                        <input class="form-control form-left" type="text" name="name2" placeholder="NAME" id="comname">
                                     </div>
                                 </div>
 
 
 
-                                <div class="form-group row">
+                                <div class="form-group">
 
                                     <div class="col-10">
-                                        <input class="form-control form-left" type="text" placeholder="MESSAGE TITLE"  name="title">
+                                        <input class="form-control form-left" type="text" placeholder="MESSAGE TITLE"  name="title" id="comtitle">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="form-group row">
+                                <div class="form-group">
 
                                     <div class="col-10">
-                                        <input class="form-control form-right" type="text" placeholder="YOUR MESSAGE"  name="message">
+                                        <input class="form-control form-right" type="text" placeholder="YOUR MESSAGE"  name="message" id="commes">
                                     </div>
                                 </div>
 
                                <p class="but">
-                                   <button type="submit" class="btn-comment"  data-toggle="modal" data-target="#myModal">Надіслати</button>
+                                  <button type="submit" name="comment"  class="btn-comment" id="sendCom">Надіслати</button>
                                </p>
 
                             </div>
@@ -719,7 +728,11 @@
     </script>
 
 
-
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/send.js"></script>
+<script src="js/comments.js"></script>
 
 
 
